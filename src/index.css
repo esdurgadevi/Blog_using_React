@@ -1,0 +1,96 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 50px;
+    max-width: 1100px;
+  }
+  
+.blog-preview
+{
+    padding:10px 16px;
+    margin:20px 0;
+    border-bottom: 1px solid #fbcece;
+    border-top: 1px solid #f8e6e6;
+}
+.blog-preview:hover{
+    box-shadow: 3px 7px 9px rgba(167, 2, 2, 0.1);
+}
+.blog-preview h2{
+    font-size: 25px;
+    color:#f1356d;
+    margin-bottom: 18px;
+}
+.blog-preview button{
+    color: white;
+    background-color: #f1356d;
+    border-radius: 9px;
+    border-style: none;
+    padding:10px;
+}
+.blog-preview button:hover{
+    cursor: pointer;
+}
+.blog-detail h2{
+    color: #f1356d;
+    font-size: 25px;
+}
+.blog-detail div{
+    line-height: 2.3;
+    padding-top:11px;
+}
+.blog-detail p{
+    color:rgb(116, 47, 181);
+}
+/* for create */
+.create{
+    max-width: 450px;
+    margin:10px auto;
+    text-align: center;
+}
+.create label{
+    text-align: left;
+    display: block;
+    margin:20px auto;
+}
+.create h2{
+    font-size: 25px;
+    color: #f1356d;
+    margin-bottom: 35px;
+}
+.create input,select,textarea{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #e6d4d4;
+    box-sizing: border-box;
+    display: block;
+}
+.create button{
+    color: white;
+    background-color: #f1356d;
+    border-radius: 30px;
+    border-style: none;
+    padding:14px 25px;
+    font-weight: 500;
+    margin:30px;
+}
+.create textarea{
+    height: 100px;
+}
+.create button:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(225, 7, 7, 0.2);
+}
+.delete{
+    color: white;
+    background-color: #f1356d;
+    border-radius: 30px;
+    border-style: none;
+    padding:11px;
+    font-weight: 500;
+    margin:30px auto;
+    margin-left:50px;
+}
+
